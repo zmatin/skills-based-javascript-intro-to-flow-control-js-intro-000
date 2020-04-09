@@ -39,3 +39,15 @@ function switchAge(age) {
   }
 }
 
+function lifecycle(age){
+  if(age >= 13 && age <= 19){
+    return 'you/r a teenager!'
+  } else if(age >= 20 && age <= 25){
+    return 'you are at your prime'
+  } else if(age >= 26 && age <= 30){
+    return 'get ready for the aches and pains to begin'
+  } else{
+    return 'your getting pretty old there buddy'
+  }
+}
+
